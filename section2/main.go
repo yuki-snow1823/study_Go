@@ -21,4 +21,12 @@ func main() {
 		num += n
 	}
 	fmt.Println(num)
+
+	const (
+		X int = 1
+		Y
+		Z // 1が出る
+	)
+
+	fmt.Print(Z)
 }
