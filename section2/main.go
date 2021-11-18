@@ -36,6 +36,12 @@ func main() {
 		fmt.Println("hoge")
 	}
 
+	wordset := [...]string{"apple", "banana", "grape"}
+
+	for _, word := range wordset {
+		fmt.Printf(word)
+	}
+	
 	str := go_for_paiza.Hello()
 	fmt.Print(str)
 }
