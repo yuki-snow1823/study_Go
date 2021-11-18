@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"strconv"
+	"github.com/yuki-snow1823/go_for_paiza" // 外部から呼び出している
 )
 
 func main() {
@@ -28,5 +29,6 @@ func main() {
 		Z // 1が出る
 	)
 
-	fmt.Print(Z)
+	str := go_for_paiza.Hello()
+	fmt.Print(str)
 }
