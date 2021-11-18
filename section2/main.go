@@ -29,6 +29,13 @@ func main() {
 		Z // 1が出る
 	)
 
+  r := 0
+
+	for ; r < 5; {
+		r++
+		fmt.Println("hoge")
+	}
+
 	str := go_for_paiza.Hello()
 	fmt.Print(str)
 }
